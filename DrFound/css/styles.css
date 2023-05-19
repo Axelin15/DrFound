@@ -11320,8 +11320,8 @@ input[type="radio"]:checked ~ label {
   height: 1000px;
   /* centrar vertical y horizontalmente */
   position: absolute;
-  top: 67%;
-  left: 37%;
+  top: 81%;
+  left: 30%;
   margin: -25px 0 0 -25px;
 }
 
@@ -11330,8 +11330,8 @@ input[type="radio"]:checked ~ label {
   height: 1000px;
   /* centrar vertical y horizontalmente */
   position: absolute;
-  top: 80%;
-  left: 51%;
+  top: 88%;
+  left: 44%;
   margin: -25px 0 0 -25px;
 }
 
@@ -11344,6 +11344,15 @@ input[type="radio"]:checked ~ label {
   left: 68%;
   margin: -25px 0 0 -28px;
 }
+.contenedor5{
+  width: 500px;
+  height: 1000px;
+  /* centrar vertical y horizontalmente */
+  position: absolute;
+  top: 40%;
+  left: 68%;
+  margin: -25px 0 0 -28px;
+}
 .card-body1{
   width: 500px;
   height: 520px;
@@ -11352,4 +11361,24 @@ input[type="radio"]:checked ~ label {
 .btnconsulta {
   display: flex;
   justify-content: center;
+}
+.perfildoctor{
+  width: 600px;
+  height: 1px;
+  /* centrar vertical y horizontalmente */
+  position: absolute;
+  top: 9%;
+  left: 19%;
+  margin: 200 px 0 0 1px;
+}
+
+
+.cardhospitales{
+  width: 1000px;
+  height: 1991911px;
+  /* centrar vertical y horizontalmente */
+  position: absolute;
+  top: 17000%;
+  left: 39%;
+  margin: 200 px 0 0 1px;
 }
