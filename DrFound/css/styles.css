@@ -11382,3 +11382,16 @@ input[type="radio"]:checked ~ label {
   left: 39%;
   margin: 200 px 0 0 1px;
 }
+
+
+
+.centrarperfil{
+  
+  width: 1000px;
+  height: 50px;
+  /* centrar vertical y horizontalmente */
+  position: absolute;
+  top: 10%;
+  left: 35%;
+  margin: -25px 0 0 -25px;
+}
