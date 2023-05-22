@@ -17,7 +17,7 @@
   --bs-pink: #d63384;
   --bs-red: #dc3545;
   --bs-orange: #fd7e14;
-  --bs-yellow: #ffc107;
+  --bs-yellow: rgb(90, 148, 235);
   --bs-green: #198754;
   --bs-teal: #20c997;
   --bs-cyan: #0dcaf0;
@@ -11392,3 +11392,7 @@ input[type="radio"]:checked ~ label {
   margin: -25px 0 0 -25px;
  
 }
+
+
+    
+  
