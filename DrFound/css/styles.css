@@ -11393,6 +11393,21 @@ input[type="radio"]:checked ~ label {
  
 }
 
+.time{
+  top: 1%;
+  left: 35%;
+  margin: -25px 0 0 -25px;
+}
 
-    
-  
+.botonesxd{
+  position: absolute;
+  top: 20%;
+  left: 60%;
+}
+
+.botonesxd1{
+  position: absolute;
+  top: 65%;
+  left: 58%;
+}
+
