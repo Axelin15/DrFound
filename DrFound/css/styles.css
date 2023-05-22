@@ -11385,8 +11385,8 @@ input[type="radio"]:checked ~ label {
 
 
 
+@media (min-width: 768px){
 .centrarperfil{
-  
   width: 1000px;
   height: 50px;
   /* centrar vertical y horizontalmente */
@@ -11394,4 +11394,6 @@ input[type="radio"]:checked ~ label {
   top: 10%;
   left: 35%;
   margin: -25px 0 0 -25px;
+ 
+}
 }
