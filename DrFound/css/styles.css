@@ -11416,15 +11416,12 @@ input[type="radio"]:checked ~ label {
   top: 65%;
   left: 58%;
 }
-label {
-  display: block;
-  font: 1.1rem 'Fira Sans', sans-serif;
-}
+
 
 .timepick{
  position: absolute;
   top: 12%;
-  left: 18%;
+  left: 30%;
 
 }
 
