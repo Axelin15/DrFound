@@ -131,19 +131,22 @@
                             <div class="modal-body">
                                 <p1>Paciente: Juan Villeda<br></p1>
                                 <p2>Consulta<br><br></p2>
-                                <div class="botonesxd"> 
-                                <button type="button" class="btn mb-2 btn-secondary" data-bs-dismiss="modal">En espera</button>
-                                <button type="button" class="btn mb-2 btn-primary">Aceptar</button>
-                              </div>
+                                <div class="botonesxd">
+                                    <button type="button" class="btn mb-2 btn-secondary" data-bs-dismiss="modal">En
+                                        espera</button>
+                                    <button type="button" class="btn mb-2 btn-primary">Aceptar</button>
+                                </div>
                                 <p3>_______________________________________________________________________</p3>
                                 <p1><br><br>Angel Manuel Maldonado<br></p1>
                                 <p2>Consulta<br><br></p2>
-                                <div class="botonesxd1"> 
-                                <button type="button" class="btn mb-2 btn-secondary" data-bs-dismiss="modal">En consulta</button>
-                                <button type="button" class="btn mb-2 btn-primary">Terminar</button>
-                              </div>
+                                <div class="botonesxd1">
+                                    <button type="button" class="btn mb-2 btn-secondary" data-bs-dismiss="modal">En
+                                        consulta</button>
+                                    <button type="button" class="btn mb-2 btn-primary">Terminar</button>
+                                </div>
                                 <p3>_______________________________________________________________________</p3>
-                              </div>
+                                        
+                            </div>
                         </div>
                          
                     </div>
@@ -172,8 +175,25 @@
 
 
                         <div class="card" style="width: 26rem;">
-                            <h5 class="card-title">Horario de atención</h5>
-
+                            <h5 class="card-title" style="text-align: center;">Horario de atención</h5>
+                            <form class="timepick">
+                                <div>
+                                  <label for="appt-time">
+                                    <br></br><br>
+                                  </label>
+                                  <input
+                                    id="appt-time"
+                                    type="time"
+                                    name="appt-time"
+                                    min=""
+                                    max=""
+                                    required />
+                                  <span class="validity"></span>
+                                </div><br><br>
+                                <div>
+                                  <input type="submit" value="Confirmar"/>
+                                </div>
+                              </form>
                         </div>
 
                     </div>
@@ -186,6 +206,7 @@
                     <div class="row">
                         <div class="card" style="width: 14rem;">
                             <img class="card-img-top" src="Imagenes/imss3.jpg" alt="Card image cap">
+                            
                         </div>
 
                         <div class="card" style="width: 14rem;">
